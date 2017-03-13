@@ -1,6 +1,7 @@
 # Webpack
 ## 代码体积优化
 code-split，externals,CommonsChunkPlugin
+使用了code-split后注意extraTextPlugin需要加alltrunks:true 将所有的样式文件打包到一起
 ## bundle分析
 webpack-visualizer 和BundleAnalyzerPlugin 是两个用来分析bundle大小的工具，如果需要分析bundle的依赖的话可以用webpack生成的json，然后用官方的分析工具去分析
 
@@ -32,4 +33,11 @@ loader可以写include
 配置哪些文件可以脱离Webpack解析，有些库是自成一体，不需要依赖别的库的，webpack无需解析他们的依赖
 
 happyPack，DLLPlugin
+happyPack使用后无法使用postcss	™
+
+
+TODO
+https://github.com/lcxfs1991/blog/issues/2
+http://taobaofed.org/blog/2016/09/09/webpack-flow/
+
 
