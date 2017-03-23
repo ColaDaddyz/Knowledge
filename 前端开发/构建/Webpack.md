@@ -38,6 +38,20 @@ happyPack使用后无法使用postcss	™
 
 TODO
 https://github.com/lcxfs1991/blog/issues/2
+
+
+
+### 资源整理
+webpack源码以及流程分析
 http://taobaofed.org/blog/2016/09/09/webpack-flow/
 
+如何解决hash的问题
+https://github.com/zhenyong/Blog/issues/1
+http://www.cnblogs.com/ihardcoder/p/5623411.html
+https://github.com/zhenyong/webpack-stable-module-id-and-hash
+
+如何写webpack插件
+https://github.com/lcxfs1991/blog/issues/1
+https://webpack.github.io/docs/how-to-write-a-plugin.html
+https://webpack.github.io/docs/plugins.html#the-compiler-instance
 
